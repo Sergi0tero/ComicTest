@@ -1,0 +1,8 @@
+<button (click)="getPreviousComic()">anterior</button>
+<button (click)="getRandomComic()">random</button>
+<button (click)="getNextComic()">siguiente</button>
+<button [ngClass]="rating >= 1  ? 'star' : 'empty-star'" id="star1" (click)="setRating(1)">Star1</button>
+<button [ngClass]="rating >= 2  ? 'star' : 'empty-star'" id="star2" (click)="setRating(2)">Star2</button>
+<button [ngClass]="rating >= 3  ? 'star' : 'empty-star'" id="star3" (click)="setRating(3)">Star3</button>
+<button [ngClass]="rating >= 4  ? 'star' : 'empty-star'" id="star4" (click)="setRating(4)">Star4</button>
+<button [ngClass]="rating == 5  ? 'star' : 'empty-star'" id="star5" (click)="setRating(5)">Star5</button>
