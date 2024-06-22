@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-comic',
   templateUrl: './comic.component.html',
-  styleUrl: './comic.component.css'
+  styleUrl: './comic.component.scss'
 })
 export class ComicComponent implements OnInit{
   comicSub: Subscription;

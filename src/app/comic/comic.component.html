@@ -1,1 +1,4 @@
-<img *ngIf="dataLoaded" [src]="comic['img']" alt="">
+<div class="container-centered" *ngIf="dataLoaded" >
+    <h1>{{comic.safe_title}}</h1>
+    <img id="comic-image" [src]="comic['img']" alt="">
+</div>

@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-interactions',
   templateUrl: './interactions.component.html',
-  styleUrl: './interactions.component.css'
+  styleUrl: './interactions.component.scss'
 })
 export class InteractionsComponent implements OnInit{
   ratingSub: Subscription;

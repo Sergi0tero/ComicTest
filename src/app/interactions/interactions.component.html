@@ -1,8 +1,14 @@
-<button (click)="getPreviousComic()">anterior</button>
-<button (click)="getRandomComic()">random</button>
-<button (click)="getNextComic()">siguiente</button>
-<button [ngClass]="rating >= 1  ? 'star' : 'empty-star'" id="star1" (click)="setRating(1)">Star1</button>
-<button [ngClass]="rating >= 2  ? 'star' : 'empty-star'" id="star2" (click)="setRating(2)">Star2</button>
-<button [ngClass]="rating >= 3  ? 'star' : 'empty-star'" id="star3" (click)="setRating(3)">Star3</button>
-<button [ngClass]="rating >= 4  ? 'star' : 'empty-star'" id="star4" (click)="setRating(4)">Star4</button>
-<button [ngClass]="rating == 5  ? 'star' : 'empty-star'" id="star5" (click)="setRating(5)">Star5</button>
+<div class="container-centered">
+    <div>
+        <a [ngClass]="['star', rating >= 1 ? 'lighting-star' : 'empty-star']" id="star1" (click)="setRating(1)">Star1</a>
+        <a [ngClass]="['star', rating >= 2 ? 'lighting-star' : 'empty-star']" id="star2" (click)="setRating(2)">Star2</a>
+        <a [ngClass]="['star', rating >= 3 ? 'lighting-star' : 'empty-star']" id="star3" (click)="setRating(3)">Star3</a>
+        <a [ngClass]="['star', rating >= 4 ? 'lighting-star' : 'empty-star']" id="star4" (click)="setRating(4)">Star4</a>
+        <a [ngClass]="['star', rating == 5 ? 'lighting-star' : 'empty-star']" id="star5" (click)="setRating(5)">Star5</a>
+      </div>     
+      <div>
+          <button class = "btn"(click)="getPreviousComic()">👈 Anterior</button>
+          <button class = "btn"(click)="getRandomComic()">🎲 Random 🎲</button>
+          <button class = "btn"(click)="getNextComic()">Siguiente 👉</button>
+      </div> 
+</div>

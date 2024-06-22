@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+Se usa Sass para crear el css de la pagina, colocar version
+hay que especificar version de angular
+hay que especificar version de node supongo
+Explicar que hace cada boton como si fuera demostracion
