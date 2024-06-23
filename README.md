@@ -52,4 +52,4 @@ Como podemos ver, se crearon un total de 8 pruebas unitarias, la mayoría en el 
 - TypeScript 5.4.5
 - Node: 22.3.0
 - ESLint: 8.57.0
-- Sass: 1.77.6
+- SASS: 1.77.6
