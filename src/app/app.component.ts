@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { ComicService } from './services/comic.service';
-import { Subscription } from 'rxjs';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',

@@ -1,15 +1,16 @@
 @import '../app.component.scss';
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-*{
-    font-family: "Comic Neue";
-}
-// Variables
+
 $estrella:(
     estrella-activa : '../../../static/img/estrella.png',
     estrella-inactiva : '../../../static/img/estrella-vacia.png',
     estrella-sorprendida : '../../../static/img/estrella-sorprendida.png'
 );
+
+*{
+    font-family: "Comic Neue";
+}
 
 .container-centered{
     @include flexCenter;
