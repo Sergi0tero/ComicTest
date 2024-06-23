@@ -1,15 +1,25 @@
-- [About the app] (#comicTest)
-- [How to use] (#how-to-0use)
+- [Sobre la app](#comicTest)
+- [Como usar](#como-usar)
+- [Pruebas]
 
 # ComicTest
 
 Esta aplicacion te permite ver todos los comics brindados por la api [xkcd](https://xkcd.com)
 
--------------- foto principal app
+![image](https://github.com/Sergi0tero/ComicTest/assets/98189066/7958ac16-2a2c-40a5-92d7-dbf5949704be)
 
-Puedes ver los en el orden que fueron añadidos o sorprenderte con uno aleatorio.
+Puedes ver los en el orden que fueron añadidos ¡O sorprenderte con uno aleatorio!.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+![image](https://github.com/Sergi0tero/ComicTest/assets/98189066/f029babc-8406-46c3-86e7-7a1d62f4ce6f)
+
+Puedes calificar Tus comics favoritos!
+
+#Como Usar
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+
+Para comenzar se deben instalar las dependencias requeridas con el siguiente comando
+
+`npm install`
 
 ## Development server
 
