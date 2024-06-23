@@ -1,6 +1,7 @@
 - [Sobre la app](#comicTest)
 - [Como usar](#como-usar)
 - [Pruebas](#pruebas)
+- [Versiones](#versiones-utilizadas)
 
 # ComicTest
 
@@ -33,20 +34,19 @@ Este comando correra el codigo de forma local, de forma que tendremos que ingres
 
 ## Pruebas
 
-## Running unit tests
+Para correr las pruebas creadas para el proyecto usando [Karma](https://karma-runner.github.io) debemos correr el siguiente comando
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`ng test`
 
-## Running end-to-end tests
+Con esto se nos abrira una nueva pestaña en el navegador como la siguiente:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![image](https://github.com/Sergi0tero/ComicTest/assets/98189066/0ba67d32-0db7-4082-b315-5bd65de1399f)
 
-## Further help
+Como podemos ver, se crearon un total de 8 pruebas unitarias, la gran mayoria en el servicio en el cual se manejan todos los datos que utilizan los distintos componentes de la aplicacion
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-
-
-Se usa Sass para crear el css de la pagina, colocar version
-hay que especificar version de angular
-hay que especificar version de node supongo
-Explicar que hace cada boton como si fuera demostracion
+## Versiones Utilizadas:
+- Angular: 18.0.5
+- TypeScript 5.4.5
+- Node: 22.3.0
+- Eslint: 8.57.0
+- Sass: 1.77.6
