@@ -1,7 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Subject, subscribeOn } from 'rxjs';
-import { Rating } from '../models/rating.model';
 
 @Injectable({
   providedIn: 'root'
@@ -17,7 +16,6 @@ export class ComicService {
   getComic(){
     this.httpClient.get('/api/' + this.indexComic + '/info.0.json').subscribe(data => {
       this.actComic.next(data)
-      console.log(data)
     });
     this.actRating.next(this.ratings.get(this.indexComic));
   }

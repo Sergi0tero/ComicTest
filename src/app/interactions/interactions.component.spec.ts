@@ -1,23 +1,24 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 
 import { InteractionsComponent } from './interactions.component';
+import { HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('InteractionsComponent', () => {
+  
   let component: InteractionsComponent;
-  let fixture: ComponentFixture<InteractionsComponent>;
 
-  beforeEach(async () => {
+  beforeEach(async() => {
     await TestBed.configureTestingModule({
-      declarations: [InteractionsComponent]
-    })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(InteractionsComponent);
+        declarations: [],
+        imports: [HttpClientTestingModule],
+        providers: [InteractionsComponent]
+    }).compileComponents();
+    const fixture = TestBed.createComponent(InteractionsComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('Should create the interactions component', () => {
+    console.log(component)
     expect(component).toBeTruthy();
-  });
+  })
 });

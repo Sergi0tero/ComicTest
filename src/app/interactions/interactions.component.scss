@@ -68,13 +68,3 @@ $estrella:(
     transition-duration: 0.2s;
   }
 }
-
-// variables
-// anidacion
-// @use para cargar otros archivos (no creo que lo use)
-// Usar @mixin
-// Usar operadores
-
-
-// idea para usar anidacion y mixin: colores y forma de las estrellas para usar ambos, usar los parametros para hacer cosas chidas, 
-// anidar los dos en el mismo .star y usar el include para llamar la funcion, con la unica diferencia de cambiar el color

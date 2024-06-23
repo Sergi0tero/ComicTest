@@ -1,23 +1,23 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 
 import { ComicComponent } from './comic.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('ComicComponent', () => {
   let component: ComicComponent;
-  let fixture: ComponentFixture<ComicComponent>;
 
-  beforeEach(async () => {
+  beforeEach(async() => {
     await TestBed.configureTestingModule({
-      declarations: [ComicComponent]
-    })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(ComicComponent);
+        declarations: [],
+        imports: [HttpClientTestingModule],
+        providers: [ComicComponent]
+    }).compileComponents();
+    const fixture = TestBed.createComponent(ComicComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('Should create the comics component', () => {
+    console.log(component)
     expect(component).toBeTruthy();
   });
 });
